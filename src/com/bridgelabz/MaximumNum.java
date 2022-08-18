@@ -8,8 +8,8 @@ public class MaximumNum {
 		Integer a = 20, b = 50, c = 80;
 		Float p = 20.85f, q = 90.55f, r = 80.98f;
 		String e = "Apple", f = "Peach", g = "Banana";
-		// calling generic getMethod directly coz in main method and generics
-		// method using static keyword so not needed to create object for class.
+		/* calling generic getMethod directly coz in main method and generics
+		method using static keyword so not needed to create object for class.*/
 		FindMaximum.getMaximum(a, b, c);
 		FindMaximum.getMaximum(p, q, r);
 		FindMaximum.getMaximum(e, f, g);
